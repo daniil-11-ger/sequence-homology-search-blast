@@ -24,7 +24,7 @@ The goal of this analysis was to identify the origin of the **ERR3407986** seque
 * `data/`: Sample BLAST output files (tabular format).
 * `results/`: Filtered significant hits and alignment quality plots.
 
-## 🛠 Tech Stack
+## Tech Stack
 * **Tools:** NCBI BLAST+ (CLI)
 * **Language:** R
 * **Ecosystem:** Bioconductor (`annotate` package), Tidyverse (`ggplot2`, `dplyr`)
