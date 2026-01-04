@@ -9,7 +9,7 @@ This project demonstrates the use of **BLAST** (Basic Local Alignment Search Too
 ## Project Overview
 The goal of this analysis was to identify the origin of the **ERR3407986** sequence series by searching against the `core_nt` (nucleotide) database. This process is essential for species identification and detecting potential sample contamination.
 
-## 🛠 Workflow
+## Workflow
 1. **Command-Line Processing:** Executing `blastn` with tabular output formatting (`-outfmt 7`).
 2. **Data Integration:** Importing raw alignment metadata into the R environment.
 3. **Statistical Filtering:** Using `Bioconductor` and `Tidyverse` to sieve results based on **E-value** and **Percent Identity**.
